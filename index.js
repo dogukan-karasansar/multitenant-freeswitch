@@ -7,10 +7,14 @@
 
 require('./config');
 
-class index {
-    constructor() {
-        
+
+/* module configuration classes */
+const Domain = require('/lib/Configurations/Domain/domain');
+
+class FreeswitchM {
+    constructor(params) {
+        this.domain = new Domain({ directoryPath: directoryPath });
     }
 }
 
-module.exports = index;
+module.exports = FreeswitchM;

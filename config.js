@@ -7,6 +7,6 @@
 
 
 global.freeswitchPath = '/usr/local/freeswitch';
-global.directoryPath = '/conf/directory';
-global.sipProfilePath = '/conf/sip_profiles';
-global.dialplanPath = '/conf/dialplan';
+global.directoryPath = global.freeswitchPath + '/conf/directory';
+global.sipProfilePath = global.freeswitchPath + '/conf/sip_profiles';
+global.dialplanPath = global.freeswitchPath + '/conf/dialplan';
